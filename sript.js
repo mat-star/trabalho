@@ -29,5 +29,5 @@ document.body.style.backgroundColor = corAleatoria;
 function mudarCorTexto() {
 const cores = ["#FF5733", "#33FF57", "#3357FF", "#FF33A6", "#FFC133"];
 document.getElementById("text").style.color = cores[Math.floor(Math.random() * cores.length)];
-document.getElementById("p").style.color = cores[Math.floor(Math.random() * cores.length)];
+document.querySelectorAll("p").style.color = cores[Math.floor(Math.random() * cores.length)];
 }
